@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text.css" href="./style.css" />
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    #logo {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo_body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo_big {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo_footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav_links {
+        display: flex;
+        list-style: none;
+    }
+
+    a {
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    h2, h3, p {
+        text-align: center;
+    }
+
+    #body_contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #body_contact_1 {
+        width: 100px;
+        height: 60px;
+        margin: 20px;
+    }
+</style>
+    <nav>
+        <div>
+            <img id="logo" src="images/bear.png" alt="logo">
+        </div>
+        <div>
+            <ul id="nav_links">
+                <a href="#">About Me</a>
+                <a href="#">Contact</a>
+            </ul>
+        </div>
+        <div>
+            <ul id="nav_contacts">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </ul>
+        </div>
+    </nav>
+        
+    <hr />
+<body>
+    <div>
+        <div id="logo_body">
+            <img id="logo_big" src="images/bear.png" alt="logo">
+        </div>
+        <h2>Hey there, I'm Beary</h2>
+        <h2>Senior Full-Stack developer of Web Applications development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur aspernatur labore molestias repudiandae, consectetur perferendis nisi soluta nulla suscipit hic voluptatum quod culpa. Quis natus laboriosam sequi at doloribus?</p>
+        <br />
+        <br />
+        <div id="body_contact">
+            <div id="body_contact_1">
+            <h4>hello@beary.dev</h4>
+            </div>
+            <div id="body_contact_1">
+            <h4>(704) 555-0127</h4>
+            </div>
+            <div id="body_contact_1">
+            <h4>See my work</h4>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <hr />
+    <br/>
+    <div>
+        <h3>I had the pleasure of working with these awesome companies</h3>
+    </div>
+    <div id="logo_footer">
+        <img id="logo_big" src="images/amazon.png" alt="amazon">
+        <img id="logo_big" src="images/adobe.png" alt="adobe">
+        <img id="logo_big" src="images/apple.png" alt="apple">
+        <img id="logo_big" src="images/github.png" alt="github">
+        <img id="logo_big" src="images/window.png" alt="window">
+    </div>
+    <br/>
+    <hr />
+</footer>
+</html>
